@@ -1,8 +1,10 @@
 # Kafka-Snowflake Streaming Integration
 
-# ELTL Process for Earthquake Data
+## ELTL Process for Earthquake Data
 
 This project demonstrates an ELTL (Extract, Load, Transform, and Load) process implemented in the cloud, utilizing data from the USGS Earthquake API to efficiently feed a data warehouse. The pipeline simplifies the entire process from real-time data extraction to structured data storage, making it suitable for analytics and further processing.
+
+![Pipeline Overview](.files/pipeline_overview.png)
 
 ## Pipeline Steps:
 
