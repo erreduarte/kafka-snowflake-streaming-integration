@@ -58,8 +58,8 @@ A configuration file (`config.json`) is required for connecting to Kafka and Sno
     "snowflake_jars": "net.snowflake:spark-snowflake_2.12:2.16.0-spark_3.4"
   },
   "kafka_information": {
-    "host": "localhost:9092",
-    "topic": "earthquake"
+    "host": "your_host", #e.g. "localhost:9092"
+    "topic": "your_topic" #e.g. as created before "earthquake"
   },
   "snowflake": {
     "sfURL": "your_snowflake_url",
