@@ -10,6 +10,5 @@ This project demonstrates an ELTL (Extract, Load, Transform, and Load) process i
 
 1. **Extract** data from the USGS Earthquake real-time API and  **Produce** a Kafka topic with the extracted data.
 2. **Consume** the Kafka data stream and extract value using Apache Spark.
-3. **Load** the transformed data into a Snowflake staging table via PySpark.
-4. **Parse and Transform** JSON rows into a structured format in a new staging table, applying necessary transformations and data type casting.
-5. Using **Snowflake tasks**, populate fact and dimension tables for the data warehouse.
+3. **Load** the transformed data into a Snowflake staging table via PySpark.<br>
+4. **Parse and Transform** JSON rows into a structured format in a new staging table, applying necessary transformations and data type casting; Using **Snowflake tasks**, populate fact and dimension tables for the data warehouse.
