@@ -1,16 +1,16 @@
 version: 2
 
 sources:
-  - name: public  # This is the name you'll use to refer to this source in your models.
+  - name: public  
     description: "Raw USGS Earthquake Data"
-    database: EARTHQUAKE_USGS  # The database where the table is stored.
-    schema: public  # The schema where the source table is stored.
+    database: EARTHQUAKE_USGS  
+    schema: public  
     tables:
-      - name: raw_earthquake_history  # Name of the source table
+      - name: raw_earthquake_history  
       
-  - name: stg_usgs  # This is the name you'll use to refer to this source in your models.
+  - name: stg_usgs  
     description: "Transformed USGS Earthquake Data"
-    database: EARTHQUAKE_USGS  # The database where the table is stored.
-    schema: STG_EARTHQUAKE_DATA  # The schema where the source table is stored.
+    database: EARTHQUAKE_USGS  
+    schema: STG_EARTHQUAKE_DATA  
     tables:
-      - name: STG_EARTHQUAKE_HISTORY  # Name of the source table
+      - name: STG_EARTHQUAKE_HISTORY  
