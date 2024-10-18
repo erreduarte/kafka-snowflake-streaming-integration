@@ -1,4 +1,4 @@
-## Data TRansformation & Loading Process
+## Data Transformation & Loading Process
 
 The data is ingested into Snowflake via a Spark consumer, which writes to an initial staging table created by the Spark task. The data arrives in Snowflake as JSON rows, which must be parsed into a columnar format to facilitate easier querying and transformations.
 
